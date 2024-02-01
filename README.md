@@ -1,8 +1,10 @@
 # Project Name
 
+Notes CRUD
+
 ## Description
 
-[Provide a brief description of your project here]
+A simple backend for a note-taking application using TypeScript, Node.js, and Express
 
 ## Assumptions
 
