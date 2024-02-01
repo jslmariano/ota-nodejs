@@ -37,15 +37,3 @@ A simple backend for a note-taking application using TypeScript, Node.js, and Ex
 - The web server will be running on `http://localhost:3001`.
 
 3. Open your web browser and visit `http://localhost:3001` to access the web application.
-
-## Contributing
-
-[Explain how others can contribute to your project]
-
-## License
-
-[Specify the license under which your project is distributed]
-
-## Contact
-
-[Provide your contact information for any inquiries or support]
