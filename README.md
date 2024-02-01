@@ -1,6 +1,4 @@
-# Project Name
-
-Notes CRUD
+# Notes CRUD
 
 ## Description
 
