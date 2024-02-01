@@ -12,7 +12,15 @@ A simple backend for a note-taking application using TypeScript, Node.js, and Ex
 
 1. Clone this repository to your local machine.
 2. Navigate to the project directory: `cd ota-nodejs`.
-3. Install the required dependencies by running: `npm install`.
+3. Install the required dependencies for the API by running the following commands:
+
+- Navigate to the `api` directory: `cd api`.
+- Run `yarn install`.
+
+4. Install the required dependencies for the web server by running the following commands:
+
+- Navigate to the `web` directory: `cd web`.
+- Run `yarn install`.
 
 ## Usage
 
