@@ -1,0 +1,26 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "workbench.colorTheme": "Monokai Alt",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.ignorePaths": [
+    "package-lock.json",
+    "node_modules",
+    "vscode-extension",
+    ".git/objects",
+    ".vscode",
+    ".vscode-insiders",
+    "public",
+    "package.json",
+    "yarn.lock"
+  ],
+  "cSpell.ignoreWords": ["fortawesome", "jslmariano", "webfont"],
+  "cSpell.language": "en-GB,en,it,ru,lorem",
+  "cSpell.ignoreRegExpList": [
+    "/from\\\\s+(['\\\"]).*\\\\1/",
+    "/import\\s*(?:\\{(?:[\\w,\\s]+)\\}|\\*\\s*as\\s*[\\w$]+|\\w+)(?:\\s*,\\s*(?:\\{(?:[\\w,\\s]+)\\}|\\*\\s*as\\s*[\\w$]+|\\w+))*\\s*from\\s*[\"'][^\"']*[\"']/g"
+  ],
+  "cSpell.words": ["Formik"]
+}
