@@ -15,17 +15,18 @@ export async function getNoteById(id: string): Promise<Note> {
   return response.data;
 }
 
-export async function createNote(title: string, body: string): Promise<Note> {
-  const response = await client.post<Note>("/notes", { title, body });
-  return response.data;
+export async function createNote(
+  title: string | undefined,
+  body: string | undefined,
+) {
+  return client.post<Note>("/notes", { title, body });
 }
 
-export async function updateNote(note: Note): Promise<Note> {
-  const response = await client.put<Note>(`/notes/${note.id}`, {
+export async function updateNote(note: Note) {
+  return client.put<Note>(`/notes/${note.id}`, {
     title: note?.title,
     body: note?.body,
   });
-  return response.data;
 }
 
 export async function deleteNoteById(id: string): Promise<Note> {
