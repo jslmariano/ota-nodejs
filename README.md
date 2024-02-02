@@ -2,11 +2,12 @@
 
 ## Description
 
-A simple backend for a note-taking application using TypeScript, Node.js, and Express
+A simple frontend and backend for a note-taking application using TypeScript, Node.js, and Express
 
 ## Assumptions
 
-- This project assumes that you have Node.js and npm (Node Package Manager) installed on your machine.
+- This project assumes that you have Node.js and yarn (Yarn node Package Manager) installed on your machine.
+- Version of node used here is v20.9.0
 
 ## Installation
 
